@@ -53,6 +53,18 @@ h4 {
   cursor: pointer;
 }
 
+.btn-translate:hover {
+  background-image: linear-gradient(
+    to top left,
+    var(--color-1),
+    var(--color-2),
+    var(--color-3),
+    var(--color-4)
+  );
+  color: var(--primary-color);
+  border: none;
+}
+
 .text {
   text-align: center;
   margin-top: 5rem;
@@ -86,7 +98,7 @@ h4 {
   margin-bottom: 2rem;
   width: 50%;
   height: 9rem;
-  border: 2px solid black;
+  font-size: 1.5rem;
   border-radius: 2px;
   color: var(--primary-color);
   background-image: linear-gradient(
