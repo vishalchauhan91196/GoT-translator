@@ -1,15 +1,56 @@
+:root {
+  --primary-color: #e0db9a;
+}
+
 body {
-    background-color: rgb(218, 119, 73);
-  }
-  
-  #txt-input {
-    width: 30%;
-  }
-  
-  .output {
-    width: 30%;
-    height: 10rem;
-    border: 2px solid black;
-    border-radius: 2px;
-    background-color: aliceblue;
-  } 
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.btn-translate {
+  padding: 5px;
+  font-size: 1rem;
+  position: absolute;
+  left: 47%;
+  margin: 1rem 0;
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.text {
+  text-align: center;
+  margin-top: 3.5rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+#txt-input {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  color: var(--primary-color);
+  background-color: rgb(20, 20, 18);
+  border: none;
+}
+
+.output {
+  padding: 1rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  width: 50%;
+  height: 9rem;
+  border: 2px solid black;
+  border-radius: 2px;
+  color: var(--primary-color);
+  background-color: rgb(34, 34, 31);
+}
